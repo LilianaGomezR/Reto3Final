@@ -81,7 +81,7 @@ public class Reservation {
         this.client = client;
     }
     public String getScore() {
-        return String.valueOf(score);
+        return score;
     }
     public void setScore(String score) {
         this.score = score;
